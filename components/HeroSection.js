@@ -22,7 +22,7 @@ export default function HeroSection() {
         >
           Create
           <br />
-          <span className="text-primaryLight">Intelligent </span>
+          <span className="text-primaryLight">Intelligent Experiences</span>
         </motion.h1>
 
         <motion.p
