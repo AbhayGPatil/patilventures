@@ -58,7 +58,7 @@ export default function ContactSection() {
           >
             <option value="" disabled selected>
               Budget Range
-            </option>
+            </option> 
             <option value="1">5k – 15k</option>
             <option value="2">15k – 50k</option>
             <option value="3">50k+</option>
