@@ -42,7 +42,7 @@ export default function BlogSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.4 }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
-              className="p-6 bg-white border border-secondary rounded-2xl shadow hover:shadow-lg transition-shadow flex flex-col"
+              className="p-6 bg-surface border border-secondary rounded-2xl shadow hover:shadow-lg transition-shadow flex flex-col"
             >
               <span className="text-secondary text-xs uppercase font-semibold mb-2">{post.category}</span>
               <h3 className="text-lg font-display font-semibold text-primary mb-2">{post.title}</h3>

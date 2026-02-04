@@ -1,39 +1,33 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
-import ServicesSection from '../components/ServicesSection';
-import PortfolioSection from '../components/PortfolioSection';
-import AboutSection from '../components/AboutSection';
-import AdvertiseSection from '../components/AdvertiseSection';
+import AssessmentSection from '../components/AssessmentSection';
+import IntelligenceSection from '../components/IntelligenceSection';
+import IndustrySection from '../components/IndustrySection';
+import CaseStudiesSection from '../components/CaseStudiesSection';
 import CTASection from '../components/CTASection';
-import Footer from '../components/Footer';
-import RobotOverlay from '../components/RobotOverlay';
-import TestimonialsSection from '../components/TestimonialsSection';
-import BlogsSection from '../components/BlogsSection';
-import ExperienceSection from '../components/ExperienceSection';
 import ContactSection from '../components/ContactSection';
+import Footer from '../components/Footer';
+import FloatingWidgets from '../components/FloatingWidgets';
 
 export default function Home() {
   return (
     <div id="top">
       <Head>
-        <title>Patil Ventures — Intelligent Experiences</title>
+        <title>Patil Ventures — Enterprise AI Systems Engineering</title>
         <meta
           name="description"
-          content="Patil Ventures crafts AI agents and next‑generation web experiences with unrivaled design and engineering."
+          content="Design, deploy, and steward agentic AI systems that transform business operations. Web applications, AI agents, and intelligent experiences with unrivaled design and engineering."
         />
       </Head>
       <Navbar />
-      <RobotOverlay />
-      <main className="pt-16">
+      <FloatingWidgets />
+      <main>
         <HeroSection />
-        <ServicesSection />
-        <AdvertiseSection />
-        <PortfolioSection />
-        <ExperienceSection />
-        <TestimonialsSection />
-        <BlogsSection />
-        <AboutSection />
+        <AssessmentSection />
+        <IntelligenceSection />
+        <IndustrySection />
+        <CaseStudiesSection />
         <CTASection />
         <ContactSection />
       </main>

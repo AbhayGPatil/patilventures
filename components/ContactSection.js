@@ -35,28 +35,29 @@ export default function ContactSection() {
             required
             type="text"
             placeholder="Name"
-            className="p-3 border border-surface rounded-md focus:outline-none focus:ring-2 focus:ring-highlight"
+            className="p-3 bg-surface border border-secondary rounded-md text-primary placeholder:text-primaryLight focus:outline-none focus:ring-2 focus:ring-highlight"
           />
           <input
             required
             type="email"
             placeholder="Email"
-            className="p-3 border border-surface rounded-md focus:outline-none focus:ring-2 focus:ring-highlight"
+            className="p-3 bg-surface border border-secondary rounded-md text-primary placeholder:text-primaryLight focus:outline-none focus:ring-2 focus:ring-highlight"
           />
           <input
             type="tel"
             placeholder="Phone"
-            className="p-3 border border-surface rounded-md focus:outline-none focus:ring-2 focus:ring-highlight"
+            className="p-3 bg-surface border border-secondary rounded-md text-primary placeholder:text-primaryLight focus:outline-none focus:ring-2 focus:ring-highlight"
           />
           <input
             type="text"
             placeholder="Company"
-            className="p-3 border border-surface rounded-md focus:outline-none focus:ring-2 focus:ring-highlight"
+            className="p-3 bg-surface border border-secondary rounded-md text-primary placeholder:text-primaryLight focus:outline-none focus:ring-2 focus:ring-highlight"
           />
           <select
-            className="p-3 border border-surface rounded-md focus:outline-none focus:ring-2 focus:ring-highlight md:col-span-2"
+            defaultValue=""
+            className="p-3 bg-surface border border-secondary rounded-md text-primary focus:outline-none focus:ring-2 focus:ring-highlight md:col-span-2"
           >
-            <option value="" disabled selected>
+            <option value="" disabled>
               Budget Range
             </option> 
             <option value="1">5k – 15k</option>
@@ -66,14 +67,14 @@ export default function ContactSection() {
           <textarea
             placeholder="Project Details"
             rows="4"
-            className="p-3 border border-surface rounded-md focus:outline-none focus:ring-2 focus:ring-highlight md:col-span-2"
+            className="p-3 bg-surface border border-secondary rounded-md text-primary placeholder:text-primaryLight focus:outline-none focus:ring-2 focus:ring-highlight md:col-span-2"
           />
           {status === 'success' ? (
             <p className="md:col-span-2 text-highlight font-medium">Thank you! We’ll be in touch shortly.</p>
           ) : (
             <button
               type="submit"
-              className="md:col-span-2 mt-4 px-8 py-3 bg-primary text-surface rounded-full font-semibold shadow hover:bg-primaryLight transition-colors"
+              className="md:col-span-2 mt-4 px-8 py-3 bg-highlight text-base rounded-full font-semibold shadow hover:brightness-110 transition-colors"
             >
               Send Message
             </button>

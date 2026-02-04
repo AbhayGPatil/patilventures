@@ -46,7 +46,7 @@ export default function ServicesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.4 }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
-              className="p-6 bg-white border border-secondary rounded-2xl shadow hover:shadow-lg transition-shadow"
+              className="p-6 bg-surface border border-secondary rounded-2xl shadow hover:shadow-lg transition-shadow"
             >
               <div className="text-primary text-3xl font-bold mb-4">{service.number}</div>
               <h3 className="text-xl font-display font-semibold text-primary mb-2">
