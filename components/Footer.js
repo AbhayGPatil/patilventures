@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="font-display font-semibold text-xl mb-4">Patil Ventures</h3>
+            <h3 className="font-display font-semibold text-xl mb-4">Sapience Agentic Systems</h3>
             <p className="text-sm text-primaryLight mb-4">
               Enterprise AI Systems Engineering. Designing, deploying, and stewarding agentic AI systems that transform business operations.
             </p>

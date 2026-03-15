@@ -29,8 +29,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex flex-wrap md:flex-nowrap justify-between items-center gap-2 sm:gap-4">
         {/* Logo and title */}
         <div className="flex items-center space-x-2">
-          <img src="/assets/logo.png" alt="Patil Ventures logo" className="h-10 sm:h-12 md:h-14 w-auto" />
-          <a href="#top" className="text-lg sm:text-2xl font-display font-bold text-primary hidden sm:inline">Patil Ventures</a>
+          <img src="/assets/logo.png" alt="Sapience Agentic Systems logo" className="h-10 sm:h-12 md:h-14 w-auto" />
+          <a href="#top" className="text-lg sm:text-2xl font-display font-bold text-primary hidden sm:inline">Sapience</a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -60,7 +60,7 @@ export default function Navbar() {
 
         {/* Desktop Mail contact */}
         <p className="hidden lg:block text-xs text-primaryLight whitespace-nowrap">
-          Reach us at: <a href="mailto:office@patilventures.digital" className="underline hover:text-highlight">office@patilventures.digital</a>
+          Reach us at: <a href="mailto:sapiencehq@gmail.com" className="underline hover:text-highlight">sapiencehq@gmail.com</a>
         </p>
       </div>
 
@@ -80,7 +80,7 @@ export default function Navbar() {
             <a href="/#case-studies" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-primary hover:text-highlight transition py-2">Case Studies</a>
             <a href="/#cta" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-primary hover:text-highlight transition py-2">Solutions</a>
             <a href="/contact" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-primary hover:text-highlight transition py-2">Contact</a>
-            <a href="mailto:office@patilventures.digital" className="block text-xs text-primaryLight hover:text-highlight transition py-2 border-t border-secondary pt-3 mt-2">
+            <a href="mailto:sapiencehq@gmail.com" className="block text-xs text-primaryLight hover:text-highlight transition py-2 border-t border-secondary pt-3 mt-2">
               office@patilventures.digital
             </a>
           </div>

@@ -6,10 +6,10 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Patil Ventures — Intelligent Solutions</title>
+        <title>Sapience Agentic Systems — Intelligent Solutions</title>
         <meta
           name="description"
-          content="Patil Ventures crafts AI agents and cutting‑edge web experiences to elevate your business."
+          content="Sapience Agentic Systems crafts AI agents and cutting‑edge web experiences to elevate your business."
         />
       </Head>
       <Component {...pageProps} />
