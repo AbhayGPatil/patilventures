@@ -106,7 +106,7 @@ export default function Contact() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                     <a href="mailto:hello@patilventures.com" className="text-primaryLight hover:text-highlight transition">
-                  office@patilventures.digital/team.patilventure@gmail.com
+                  sapiencehq@gmail.com
                     </a>
                   </div>
               </div>
@@ -205,7 +205,9 @@ export default function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-xl bg-base border border-secondary text-primary placeholder-primaryLight/50 focus:outline-none focus:border-highlight focus:ring-2 focus:ring-highlight/20 transition"
-                      placeholder="+91 7026000565"
+                      placeholder="+91  
+ 	
+8591132269"
                     />
                   </div>
 

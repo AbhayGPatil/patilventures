@@ -13,10 +13,10 @@ export default function Footer() {
             </p>
             <div className="space-y-2">
               <p className="text-xs text-primaryLight">
-                <a href="tel:+1234567890" className="hover:text-highlight">+1 (123) 456-7890</a>
+                <a href="tel:+1234567890" className="hover:text-highlight">+91 8591132269</a>
               </p>
               <p className="text-xs text-primaryLight">
-                <a href="mailto:hello@patilventures.com" className="hover:text-highlight">hello@patilventures.com</a>
+                <a href="mailto:hello@patilventures.com" className="hover:text-highlight">sapiencehq@gmail.com</a>
               </p>
             </div>
           </div>
